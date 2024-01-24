@@ -1,10 +1,12 @@
-﻿namespace GameEngine
+﻿using GameEngine.Core;
+
+namespace GameEngine
 {
-    public class Engine
+    public static class Engine
     {
         public static void Run()
         {
-            Console.WriteLine("Hello world!");
+            GameLoop.Run();
         }
     }
 }
