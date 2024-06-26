@@ -6,6 +6,7 @@ namespace Game
     {
         static void Main(string[] args)
         {
+            Engine.FrameRate = 60;
             Engine.Run();
         }
     }

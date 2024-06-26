@@ -4,9 +4,11 @@ namespace GameEngine
 {
     public static class Engine
     {
+        public static int FrameRate { get; set; } = -1;
+
         public static void Run()
         {
-            GameLoop.Run();
+            GameLoop.Run(FrameRate);
         }
     }
 }
